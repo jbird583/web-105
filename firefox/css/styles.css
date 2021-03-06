@@ -1,0 +1,47 @@
+body{
+    background-color: darkcyan;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 80%;
+    max-width: 1060px;
+    min-height: 500px;
+    margin: 10px auto;
+    background-color: teal;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+nav{
+    text-align: center;
+}
+
+img{
+    width: 30%;
+    display: block;
+    margin: 20px auto;
+}
+
+ul{
+    color: beige;
+}
+/*** Text ***/
+h1{
+    text-align: center;
+    color: cyan;
+}
+
+a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: red;
+}
+
+p{
+    color: darkorange;
+}
+
+a:hover{
+    text-decoration: underline;
+}
