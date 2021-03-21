@@ -1,0 +1,98 @@
+body{
+    background: black;
+    color: ivory;
+    font-size: large;
+    line-height: 1.5;
+
+
+}
+.container{
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 3px solid orangered;
+    border-radius: 10px;
+    min-height: 150px;
+}
+
+h1, h2, h3{
+    font-family: serif;
+    color:gold;
+}
+
+img{
+    width: 30%;
+    display: block;
+    margin: 10px auto;
+    padding: 15px;
+    background: #805195;
+}
+
+nav{
+    text-align: center;
+    color: green;
+}
+nav a{
+    color: #805195;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: lower-alpha;
+    color: orange;
+}
+
+ol{
+    color: peru;
+}
+
+dl{
+    color: palegreen;
+}
+
+#computers{
+    color:lime;
+}
+
+#video-games{
+    color:lime;
+}
+
+#storm-chasing{
+    color: lime;
+}
+
+#dnd{
+    color: lime;
+}
+
+#music{
+    color: lime;
+}
+
+#local{
+    text-align: center;
+    line-height: 3;
+}
+
+#local a{
+    background-color:lime;
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 5px 8px;
+    border: 2px solid lime;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+#local a:hover{
+    color: lime;
+    background: black;
+}
+
+.top-link{
+    color: lime;
+    
+}
