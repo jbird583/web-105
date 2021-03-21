@@ -1,0 +1,71 @@
+body{
+    background: olivedrab;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1080px;
+    padding: 10px;
+    border: 2px solid red;
+    margin: 10px auto;
+    background: teal;
+    color: darkgrey;
+}
+
+ul{
+    list-style-type: square;
+    list-style-position: outside;
+}
+
+ul ul{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+ol{
+    list-style-type: upper-roman;
+    list-style-position: unset;
+    background: black;
+    padding: 30px;
+}
+
+ol.b{
+    list-style-type: upper-alpha;
+    list-style-position: initial;
+}
+
+dt{
+    font-weight: bold;
+    color: firebrick;
+}
+
+nav{
+    width: 30%;
+    text-align: center;
+    margin: 10px  auto;
+}
+
+nav a{
+    padding: 5px 10px;
+    background: royalblue;
+    border: 2px solid royalblue;
+    text-decoration: none;
+    color: gold;
+    text-align: center;
+    border-radius: 20px;
+}
+
+nav a:hover{
+    background: red;
+    color: royalblue;
+}
+a{
+    text-decoration: none;
+    font size: large;
+    color: red;
+}
+
+a:hover{
+    text-decoration: underline;
+}
