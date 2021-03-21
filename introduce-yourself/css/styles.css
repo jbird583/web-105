@@ -1,0 +1,88 @@
+body{
+    background-color: tan;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+    font-size: large;
+}
+
+h1, h2, h3{
+    color: navy;
+    font-weight: 550;
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+    font-size: x-large;
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 20px;
+    background-color: black;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 20px;
+    
+}
+
+nav a:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+a{
+    color: black;
+}
+
+footer{
+    text-align: center;
+}
+
+main img{
+        width: 50%;
+        height: auto;
+        display: block;
+        margin: 10px auto;
+    }
+
+ol{
+    list-style-position: inside;
+    list-style-type: lower-roman;
+}
+
+ul{
+    list-style-position: inside;
+    list-style-type: square;
+}
+
+#gamer-mode{
+    width: 30%;
+    height: auto;
+    display: block;
+    padding: 2%;
+    border-radius: 20%;
+}
+
+#work-mode{
+    width: 30%;
+    height: auto;
+    display: block;
+    padding: 2%;
+    border-radius: 20%;
+}
+
+#funnel{
+    width: 30%;
+    height: auto;
+    display: block;
+    border-radius: 10%;
+}
+
+#updraft{
+    width: 30%;
+    height: auto;
+    display: block;
+    border-radius: 5%;
+}
